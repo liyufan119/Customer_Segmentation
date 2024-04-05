@@ -9,6 +9,11 @@ The analysis begins with the importation of two datasets: `marketing_data.csv` w
 An extensive EDA is conducted to understand the dataset's structure, content, and relationships:
 - **Distribution Analysis:** I examine the distribution of key variables to understand the demographics of our customer base, such as age, income, and family size.
 - <img width="400" alt="distribution_age" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/8add610b-55a8-4bc5-918a-04dc9a3e3c23">
+- <img width="400" alt="distribution_income" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/3530bd7e-13dc-48b0-8708-3f4a0070f291">
+<img width="400" alt="distribution_marital" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/90cef683-9dc1-4c4e-9cf8-677100896c49">
+<img width="400" alt="disrribution_education" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/ee11f336-4891-4636-b41b-962e9ac2b442">
+
+
 
 - **Correlation Analysis:** I explore the relationships betIen different variables to identify potential correlations that could influence purchase behaviors.
 
