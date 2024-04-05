@@ -54,11 +54,11 @@ Purchase trend among different groups
 
 ### Insights and Recommendations
 The culmination of the analysis is a set of actionable insights and recommendations tailored to each customer segment. These insights are aimed at helping businesses tailor their marketing strategies to meet the unique needs and preferences of each segment, enhancing customer engagement and optimizing marketing efforts.
-    - **Targeted Marketing**: For Cluster 1 (Affluent Wine Enthusiasts), focus on premium wine offerings and personalized marketing strategies to maintain their high engagement levels.
-    - **Engagement Strategies:** Develop targeted campaigns for Cluster 3 (Upper Middle-aged Heavy Spenders) to promote meat products and in-store experiences, leveraging their heavy spending behavior.
-    - **Segment-specific Promotions:** Tailor promotions for Cluster 2 (Young Frugal Shoppers) to attract them towards higher-value purchases while considering their budget-conscious approach.
-    - **Customer Retention:** Implement strategies to retain customers in Cluster 4 (Elderly Conservative Shoppers) by offering value-driven promotions and products aligned with their conservative spending habits.
-    - **Segmented Offerings:** Develop diverse product offerings and promotions that appeal to the balanced spending behavior of customers in Cluster 0 (Middle-aged Moderate Spenders) and Cluster 5 (Middle-aged Balanced Spenders).
+- **Targeted Marketing**: For Cluster 1 (Affluent Wine Enthusiasts), focus on premium wine offerings and personalized marketing strategies to maintain their high engagement levels.
+- **Engagement Strategies:** Develop targeted campaigns for Cluster 3 (Upper Middle-aged Heavy Spenders) to promote meat products and in-store experiences, leveraging their heavy spending behavior.
+- **Segment-specific Promotions:** Tailor promotions for Cluster 2 (Young Frugal Shoppers) to attract them towards higher-value purchases while considering their budget-conscious approach.
+- **Customer Retention:** Implement strategies to retain customers in Cluster 4 (Elderly Conservative Shoppers) by offering value-driven promotions and products aligned with their conservative spending habits.
+- **Segmented Offerings:** Develop diverse product offerings and promotions that appeal to the balanced spending behavior of customers in Cluster 0 (Middle-aged Moderate Spenders) and Cluster 5 (Middle-aged Balanced Spenders).
 
 **Continuous Analysis:** Regularly update customer segmentation models based on changing trends and customer preferences to ensure effective targeting and marketing strategies.
 
