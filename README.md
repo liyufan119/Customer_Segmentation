@@ -7,8 +7,8 @@ The analysis begins with the importation of two datasets: `marketing_data.csv` w
 
 ### Exploratory Data Analysis (EDA)
 An extensive EDA is conducted to understand the dataset's structure, content, and relationships:
-- **Distribution Analysis:** We examine the distribution of key variables to understand the demographics of our customer base, such as age, income, and family size.
-- **Correlation Analysis:** We explore the relationships between different variables to identify potential correlations that could influence purchase behaviors.
+- **Distribution Analysis:** I examine the distribution of key variables to understand the demographics of our customer base, such as age, income, and family size.
+- **Correlation Analysis:** I explore the relationships betIen different variables to identify potential correlations that could influence purchase behaviors.
 
 ### Customer Segmentation
 One of the core components of this analysis is segmenting customers to identify distinct groups based on their purchasing behaviors. This involves:
@@ -16,9 +16,9 @@ One of the core components of this analysis is segmenting customers to identify 
 - **KMeans Clustering:** Applying KMeans clustering algorithm to segment the customer base into distinct groups. The number of clusters is determined based on the Elbow method, ensuring optimal segmentation.
 
 ### Analysis of Purchase Behaviors
-With customer segments identified, we delve into analyzing the purchasing patterns within each segment:
+With customer segments identified, I delve into analyzing the purchasing patterns within each segment:
 - **Segment Profiling:** Each customer segment is profiled based on their demographic information and purchasing behaviors, providing a clear picture of each segment's characteristics.
-- **Purchasing Patterns:** We examine the purchasing patterns within each segment, focusing on product categories, spending habits, and responsiveness to marketing campaigns.
+- **Purchasing Patterns:** I examine the purchasing patterns within each segment, focusing on product categories, spending habits, and responsiveness to marketing campaigns.
 
 ### Visualization of Findings
 Throughout the analysis, visualizations play a crucial role in conveying insights:
