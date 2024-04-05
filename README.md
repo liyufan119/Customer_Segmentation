@@ -39,6 +39,7 @@ Principal Component Analysis (PCA): PCA was employed to reduce the dimensionalit
 <img width="397" alt="PCAB" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/5d2acfc8-f609-4790-a938-348a3439c584">
 
 Elbow Method for Optimal Cluster Selection: The Elbow method helped determine the optimal number of clusters by analyzing the within-cluster sum of squares (WCSS) and identifying a balance between granularity and interpretability.
+
 <img width="704" alt="Screen Shot 2024-04-05 at 10 53 33" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/5f52345d-1bc1-40cd-98b2-b7e80693f047">
 
 **KMeans Clustering:**  Leveraging insights from PCA and the Elbow method, KMeans clustering with 5 clusters was performed to segment customers, providing actionable insights for targeted marketing strategies.
