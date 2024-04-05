@@ -43,6 +43,7 @@ Elbow Method for Optimal Cluster Selection: The Elbow method helped determine th
 <img width="704" alt="Screen Shot 2024-04-05 at 10 53 33" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/5f52345d-1bc1-40cd-98b2-b7e80693f047">
 
 **KMeans Clustering:**  Leveraging insights from PCA and the Elbow method, KMeans clustering with 5 clusters was performed to segment customers, providing actionable insights for targeted marketing strategies.
+
 <img width="423" alt="PCAA" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/79666993-9bd6-4e04-8fe8-645d7588c268">
 
 
