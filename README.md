@@ -8,28 +8,46 @@ The analysis begins with the importation of two datasets: `marketing_data.csv` w
 ### Exploratory Data Analysis (EDA)
 An extensive EDA is conducted to understand the dataset's structure, content, and relationships:
 - **Distribution Analysis:** I examine the distribution of key variables to understand the demographics of our customer base, such as age, income, and family size.
-- <img width="400" alt="distribution_age" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/8add610b-55a8-4bc5-918a-04dc9a3e3c23"> <img width="400" alt="distribution_income" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/3530bd7e-13dc-48b0-8708-3f4a0070f291">
-<img width="400" alt="distribution_marital" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/90cef683-9dc1-4c4e-9cf8-677100896c49">
-<img width="400" alt="disrribution_education" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/ee11f336-4891-4636-b41b-962e9ac2b442">
+<img width="400" alt="distribution_age" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/8add610b-55a8-4bc5-918a-04dc9a3e3c23"> <img width="400" alt="distribution_income" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/3530bd7e-13dc-48b0-8708-3f4a0070f291">
+<img width="500" alt="distribution_marital" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/90cef683-9dc1-4c4e-9cf8-677100896c49">
+<img width="450" alt="disrribution_education" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/ee11f336-4891-4636-b41b-962e9ac2b442">
 
 
+- **Correlation Analysis:** I explore the relationships between different variables to identify potential correlations that could influence purchase behaviors.
+    
 
-- **Correlation Analysis:** I explore the relationships betIen different variables to identify potential correlations that could influence purchase behaviors.
 
 ### Customer Segmentation
 One of the core components of this analysis is segmenting customers to identify distinct groups based on their purchasing behaviors. This involves:
 - **Feature Selection:** Identifying which features are most relevant to purchasing behavior.
-- **KMeans Clustering:** Applying KMeans clustering algorithm to segment the customer base into distinct groups. The number of clusters is determined based on the Elbow method, ensuring optimal segmentation.
+  remove highly correlated features to ensure the quality and effectiveness of the clustering analysis.
 
-### Analysis of Purchase Behaviors
-With customer segments identified, I delve into analyzing the purchasing patterns within each segment:
-- **Segment Profiling:** Each customer segment is profiled based on their demographic information and purchasing behaviors, providing a clear picture of each segment's characteristics.
-- **Purchasing Patterns:** I examine the purchasing patterns within each segment, focusing on product categories, spending habits, and responsiveness to marketing campaigns.
 
-### Visualization of Findings
-Throughout the analysis, visualizations play a crucial role in conveying insights:
-- **Demographic Distributions:** Histograms and bar charts are used to visualize the distribution of demographic variables.
-- **Cluster Visualization:** Cluster distributions are visualized using scatter plots, highlighting the segmentation within the customer base.
+**Feature Encoding and Correlation Analysis:** feature encoding and removal of highly correlated features to ensure the quality and effectiveness of the clustering analysis.
+
+feature encoding: 
+one-hot coding using pd.get_dummies 
+Normalize the feature use scaler = StandardScaler()
+
+heatmap of correlations :
+
+-   <img width="551" alt="Screen Shot 2024-04-05 at 14 49 06" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/017668fb-b6f1-42fe-9184-242d7c172106">
+
+
+Principal Component Analysis (PCA): PCA was employed to reduce the dimensionality of the dataset while retaining the most significant features, providing insights into the key drivers of customer segmentation.
+
+<img width="397" alt="PCAB" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/5d2acfc8-f609-4790-a938-348a3439c584">
+
+Elbow Method for Optimal Cluster Selection: The Elbow method helped determine the optimal number of clusters by analyzing the within-cluster sum of squares (WCSS) and identifying a balance between granularity and interpretability.
+<img width="704" alt="Screen Shot 2024-04-05 at 10 53 33" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/5f52345d-1bc1-40cd-98b2-b7e80693f047">
+
+**KMeans Clustering:**  Leveraging insights from PCA and the Elbow method, KMeans clustering with 5 clusters was performed to segment customers, providing actionable insights for targeted marketing strategies.
+<img width="423" alt="PCAA" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/79666993-9bd6-4e04-8fe8-645d7588c268">
+
+
+- Applying KMeans clustering algorithm to segment the customer base into distinct groups. The number of clusters is determined based on the Elbow method, ensuring optimal segmentation.
+
+
 - **Purchasing Trends:** Heatmaps and line charts are employed to showcase purchasing trends over time and across different segments.
 Purchase trend among different groups
 
