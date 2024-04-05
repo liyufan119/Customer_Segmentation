@@ -31,7 +31,7 @@ Normalize the feature use scaler = StandardScaler()
 
 heatmap of correlations :
 
--   <img width="551" alt="Screen Shot 2024-04-05 at 14 49 06" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/017668fb-b6f1-42fe-9184-242d7c172106">
+<img width="551" alt="Screen Shot 2024-04-05 at 14 49 06" src="https://github.com/liyufan119/Customer_Segmentation/assets/71167199/017668fb-b6f1-42fe-9184-242d7c172106">
 
 
 Principal Component Analysis (PCA): PCA was employed to reduce the dimensionality of the dataset while retaining the most significant features, providing insights into the key drivers of customer segmentation.
